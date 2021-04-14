@@ -9,10 +9,14 @@ public class GitProjectClass {
 		System.out.println("Employee name is kani");
 
 	}
+	private void empAdd() {
+		System.out.println("EMployee address is chennai");
+	}
 	public static void main(String[] args) {
 		GitProjectClass g= new GitProjectClass();
 		g.empId();
 		g.empName();
+		g.empAdd();
 	}
 
 }
